@@ -1,10 +1,11 @@
-# A-End-to-End-fringe-pattern-analysis-method-based-on-deep-learning
-## Dataset
-### RFPD
-A Dataset for phase prediction,  which is a set of images to study phase-shifting algorithm based on deep learning.
+# PSTS-Net: Phase-shifting guided two-stage convolutional network for phase demodulation
 
-Each set of data in PHASE comprises 12 fringe patterns, a wrapped phase map, as well as the numerator and denominator utilized in the indirect phase prediction method. 
-![](images/dataset.png)
+## 1、Dataset
+### Pure-Phase
+
+### Blended-Phase
+
+
 
 ### Download
 Download images from [here](https://www.google.com.).
@@ -19,20 +20,10 @@ The zip file contains the following files:
 
 
   <br>
-## PSTT-Net
+## 2、PSTS-Net
 ### Network Architecture
-![](images/Architecture.png)
+![](imgs/Architecture.png)
 ### Evaluation
 Evaluation code and pre-training weights are provided in Evaluation  directory.
-### Results
-
-Experimental results indicate that our method narrows the gap between the indirect method and the end-to-end method effectively, and compared to U-Net, our proposed PSTTNet reduces phase prediction errors by 17.85%.
-
-![](images/result_on_u-net.png)![](images/result_on_PSTT-Net.png)
-
-![](images/ablations.png)
-
-<br>
-
-## Citation
+## 3、Citation
 If you use PHASE or TSPPNet please consider citing:
